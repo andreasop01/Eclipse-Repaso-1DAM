@@ -19,12 +19,11 @@ public class Ejercicio7 {
 			
 			if(numero>0) {
 				cont++;
-				suma+=numero;
-				media=suma/cont;
+				suma+=numero;	
 			}
-			
-			
 		}while(numero>0);
+		
+		media=suma/cont;
 		System.out.println("La media es: "+media);
 	}
 
